@@ -243,6 +243,7 @@ padding: 10px 20px;
 height: 40px;
 border-style: none;
 
+
 }
 .section7{
     display: flex;
@@ -603,12 +604,13 @@ input{
         background-color: rgb(242, 242, 242);
         padding: 5px;
         width: 100% !important;
+        border-radius: 10px;
 }
 textarea{
         box-sizing: border-box;
         text-decoration: none;
         outline: none;
-        border-radius: 0,5rem;
+        border-radius: 10px;
         border: none;
         resize: none !important;
         background-color: rgb(242, 242, 242);

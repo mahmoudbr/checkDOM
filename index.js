@@ -71,5 +71,36 @@ function show()
         })
     })
   }  
-  
   add()
+
+ 
+
+ 
+  function showfruit()
+  {
+     document.getElementsByClassName("fruits")[0].style.display="flex"
+     document.getElementsByClassName("vegetables")[0].style.display="none"
+     document.getElementsByClassName("other")[0].style.display="none"
+     document.getElementsByClassName("Drinks")[0].style.display="none"
+  }
+  function showveg()
+  {
+     document.getElementsByClassName("fruits")[0].style.display="none"
+     document.getElementsByClassName("vegetables")[0].style.display="flex"
+     document.getElementsByClassName("other")[0].style.display="none"
+     document.getElementsByClassName("Drinks")[0].style.display="none"
+  }
+  function showdrink()
+  {
+     document.getElementsByClassName("fruits")[0].style.display="none"
+     document.getElementsByClassName("vegetables")[0].style.display="none"
+     document.getElementsByClassName("other")[0].style.display="none"
+     document.getElementsByClassName("Drinks")[0].style.display="flex"
+  }
+  function showother()
+  {
+     document.getElementsByClassName("fruits")[0].style.display="none"
+     document.getElementsByClassName("vegetables")[0].style.display="none"
+     document.getElementsByClassName("other")[0].style.display="flex"
+     document.getElementsByClassName("Drinks")[0].style.display="none"
+  }

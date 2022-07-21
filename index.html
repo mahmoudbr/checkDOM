@@ -110,15 +110,15 @@
 <section class="section3" id="section3">
     <h1>Our Products</h1>
     <div class="list2">
-    <li>Fruits</li>
+    <li class="fruits1" onclick="showfruit()">Fruits</li>
     <li>|</li>
-    <li>Vegetables</li>
+    <li class="vegetable1" onclick="showveg()">Vegetables</li>
     <li>|</li>
-<li>Drinks</li>
+<li class="drinks1" onclick="showdrink()">Drinks</li>
 <li>|</li>
-<li>Other</li>
+<li class="other1" onclick="showother()">Other</li>
 </div>
-<div class="fruits" onclick="present()">
+<div class="fruits">
 <div>
     <img src="ananas-removebg-preview.png" alt="">
     <h1>pineapple</h1>
@@ -168,7 +168,7 @@
     <button class="add">add to cart</button>
 </div>
 </div>
-<div class="vegetables" onclick="present()" >
+<div class="vegetables"  >
     <div>
     <img src="lettuce.png" alt="">
     <h1>lettuce</h1>
@@ -204,21 +204,21 @@
                 <h1>radish</h1>
                 <h2>2,5dt/kg</h2>
                 <button class="add">add to cart</button>
+   </div>
+     <div>
+      <img src="pepper.png" alt="">
+       <h1>pepper</h1>
+       <h2>3,5dt/kg</h2>
+        <button class="add">add to cart</button>
+       </div>
+         <div>
+           <img src="brocolli.png" alt="">
+            <h1>brrocolli</h1>
+                 <h2>3dt/kg</h2>
+                  <button class="add">add to cart</button>
                 </div>
-             <div>
-                <img src="pepper.png" alt="">
-                <h1>pepper</h1>
-               <h2>3,5dt/kg</h2>
-                <button class="add">add to cart</button>
-                    </div>
-                    <div>
-                        <img src="brocolli.png" alt="">
-                        <h1>brrocolli</h1>
-                        <h2>3dt/kg</h2>
-                        <button class="add">add to cart</button>
-                        </div>
 </div>
-<div class="Drinks" onclick="present()">
+<div class="Drinks">
     <div>
     <img src="bananagjuice.png" alt="">
     <h1>banana juice</h1>
@@ -228,47 +228,73 @@
 <div>
 <img src="applejuice.png" alt="">
 <h1>apple juice</h1>
-<h2>2,8dt/kg</h2>
+<h2>2,8dt</h2>
 <button class="add">add to cart</button>
 </div>
 <div>
     <img src="grndjuice.png" alt="">
     <h1>grenadine juice</h1>
-    <h2>2,5dt/kg</h2>
+    <h2>2,5dt</h2>
     <button class="add">add to cart</button>
     </div>
     <div>
         <img src="greensmoothie.png" alt="">
         <h1>green smoothie</h1>
-        <h2>2,5dt/kg</h2>
+        <h2>2,5dt</h2>
         <button class="add">add to cart</button>
         </div>
         <div>
             <img src="ornj.png" alt="">
             <h1>orange juice</h1>
-            <h2>2dt/kg</h2>
+            <h2>2dt</h2>
      <button class="add">add to cart</button>
      </div>
      <div>
          <img src="strwjuice.png" alt="">
           <h1>strawberry juice</h1>
-       <h2>3,5dt/kg</h2>
+       <h2>3,5dt</h2>
       <button class="add">add to cart</button>
      </div>
       <div>
       <img src="s&b.png" alt="">
        <h1>S&B smoothie</h1>
-       <h2>3,5dt/kg</h2> 
+       <h2>3,5dt</h2> 
       <button class="add">add to cart</button>
            </div>
        <div>
               <img src="kiwij.png" alt="">
            <h1>kiwi juice</h1>
-     <h2>5dt/kg</h2>
+     <h2>5dt</h2>
         <button class="add">add to cart</button>
         </div>
         </div>
-        <div class="other"></div>
+        <div class="other">
+            <div>
+                <img src="choccake.png" alt="">
+                <h1>chocolate cake</h1>
+                <h2>40dt</h2>
+                 <button class="add">add to cart</button>
+                </div>
+            <div>
+                <img src="honey.png" alt="">
+                <h1>honey jar</h1>
+                <h2>20dt</h2>
+                <button class="add">add to cart</button>
+                </div>
+                <div>
+                    <img src="cake.webp" alt="">
+                    <h1>fruit cake</h1>
+                    <h2>50dt</h2>
+                    <button class="add">add to cart</button>
+                    </div> 
+                    <div>
+                        <img src="bread.png" alt="">
+                        <h1>chocolate cake</h1>
+                        <h2>1dt</h2>
+                         <button class="add">add to cart</button>
+                        </div>   
+        </div>
+      
 
 </section>
 <section class="section4" id="section4">
@@ -317,28 +343,74 @@
     <h1>Frequently Asked Questions</h1>
     <h2>check out frequently asked questions for answers </h2>
 </div>
-<div class="comms">
+
     <div class="questions">
     <div class="">
-    <h1>how does Gusto meal kit delivery service work</h1>
+    <h1>How does Gusto meal kit delivery service work</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequatur iste repudiandae in voluptates<span id="dots">...</span><span id="more"> temporibus consequuntur, maiores, neque blanditiis, quod eos omnis minima earum! Aut aperiam atque ratione est magni?</span></p>
     <button onclick="myFunction()" id="myBtn">Read more</button>
 </div>
 <div>
-    <h1>any discounts for bulk order?</h1>
+    <h1>Any discounts for bulk order?</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio commodi vitae temporibus, praesentium quos<span id="dots2">...</span><span id="more2"> dolore maxime, ea corrupti autem qui atque labore incidunt officia natus quis reprehenderit nobis. Adipisci, neque?</span></p>
     <button onclick="myFunction2()" id="myBtn2">Read more</button>
 </div>
 <div>
-    <h1>how many calories are in the apple pie</h1>
+    <h1>How many calories are in the apple pie</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quaerat ad ea natus maxime ex asperiores <span id="dots3">...</span><span id="more3">molestias voluptatibus sunt accusantium, quis rem voluptatum modi consequuntur repellendus. A atque officia aspernatur?</span></p>
     <button onclick="myFunction3()" id="myBtn3">Read more</button>
 </div>
+
+
 </div>
-<div class="comment">
-<input type="text" placeholder="write your comment">
-</div>
-</div>
+</section>
+<section class="section8" id="section8">
+    <h3>Order Now</h3>
+    <h1>Free & Fast</h1>
+    <form action>
+    <div class="inputbox">
+        <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name">
+        </div>
+        <div class="input">
+            <span>your number</span>
+            <input type="number"placeholder="enter your number">
+        </div>
+    </div>
+    <div class="inputBox">
+        <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name">
+        </div>
+        <div class="input">
+            <span>additional food</span>
+            <input type="test" placeholder="extra with food">
+        </div>
+    </div>
+    <div class="inputBox">
+        <div class="input">
+            <span>how musch</span>
+            <input type="number" placeholder="how many orders">
+        </div>
+        <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local">
+        </div>
+    </div>
+    <div class="inputBox">
+        <div class="input">
+            <span>your address</span>
+            <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="input">
+            <span>your message</span>
+            <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <input type="submit" value="order now" class="btn">
+</form>
+
 </section>
 
 
